@@ -1,0 +1,39 @@
+/* Form Input Container */
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  
+  /* Input Styles */
+  .formInput input {
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  /* Label Styles */
+  .formInput label {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  /* Error Message Styles */
+  .formInput span {
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+  }
+  
+  /* Error State for Input */
+  .formInput input:invalid[focused="true"] {
+    border: 1px solid red;
+  }
+  
+  /* Show Error Message on Invalid State */
+  .formInput input:invalid[focused="true"] ~ span {
+    display: block;
+  }
+  
