@@ -3,7 +3,7 @@
 import React from 'react';
 
 const SignIn = () => {
-  // Basic structure of a sign-in component
+  // Basic structure of a sign-in componenttt
   return (
     <div>
       <h2>Sign In Page</h2>
