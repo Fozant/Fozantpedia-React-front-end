@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url(../assets/bg.png);
+    background-size: 100%;
+    background-position: center; 
+    /* background-size: contain;
+    padding:0px;
+    overflow-x: hidden; */
+  }
+  
+  .login-container {
+    max-width: 1000px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    padding-right: 80px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 450px;
+  }
+  
+  .logoDiego {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 1.2rem;
+    margin-left: 0.5rem;
+  }
+  
+  h2 {
+    /* margin-bottom: 20px; */
+  }
+  
+  .login-container 
+  input[type="text"],
+  input[type="email"] {
+    width: 15rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 30px;
+    margin-bottom: 5px;
+  }
+
+  .login-password {
+    width: 15rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 30px;
+    margin-bottom: 5px;
+  }
+  
+  /* input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 30px;
+    margin-bottom: 5px;
+  } */
+  
+  .input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #999;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #08b005;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin: 1rem 0 1rem 0;
+  }
+  
+  .login-container button:hover {
+    background-color: #08b005;
+  }
+  
+  p {
+    /* margin-top: 20px; */
+  }
+  
+  .login-toRegister a {
+    text-decoration: none;
+    color: #08b005;
+  }
+
+  .login-toRegister a:hover {
+    color: #08b005;
+  }
