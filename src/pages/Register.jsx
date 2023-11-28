@@ -10,10 +10,10 @@ import Alert from "../components/Alert";
 
 function Register() {
     const navigate = useNavigate();
-    const [namaLengkap, setNamaLengkap] = useState('');
-    const [namaBisnis, setNamaBisnis] = useState('');
+    
+    const [last_name, setLast_name ]= useState('');
+    const [first_name, setFirst_name] = useState('');
     const [email, setEmail] = useState('');
-    const [noTelpon, setNoTelpon] = useState('');
     const [password, setPassword] = useState('');
     const [rePassword, setRePassword] = useState('');
     const [alertPesan, setAlertPesan] = useState('');
@@ -28,8 +28,8 @@ function Register() {
             event.preventDefault();
         } else {
 
-            axios.post('http://localhost:8080/registration', { namaLengkap: namaLengkap, namaBisnis: namaBisnis, 
-                                                             email: email, password: password, noTelpon: noTelpon })
+            axios.post('http://localhost:8081/registration', { last_name: last_name, first_name: first_name, 
+                                                             email: email, password: password})
                 .then(res => {
 
 
@@ -68,17 +68,14 @@ function Register() {
                 <form id="register-form">
 
                     <div className="input-group">
-                        <input type="text" placeholder="Nama Lengkap" name="namaLengkap" onChange={e => setNamaLengkap(e.target.value)} required />
+                        <input type="text" placeholder="Nama Lengkap" name="last_name" onChange={e => setLast_name(e.target.value)} required />
                         <i className="icon fas fa-user"></i>
                     </div>
                     <div className="input-group">
-                        <input type="text" placeholder="Nama Bisnis" name="namaBisnis" onChange={e => setNamaBisnis(e.target.value)} required />
+                        <input type="text" placeholder="Nama Bisnis" name="first_name" onChange={e => setFirst_name(e.target.value)} required />
                         <i className="icon fas fa-user"></i>
                     </div>
-                    <div className="input-group">
-                        <input type="text" placeholder="Nomor Telepon" name="noTelpon" onChange={e => setNoTelpon(e.target.value)} required />
-                        <i className="icon fa-solid fa-phone"></i>
-                    </div>
+                   
                     <div className="input-group">
                         <input type="email" placeholder="Email" name="email" onChange={e => setEmail(e.target.value)} required />
                         <i className="icon fa-solid fa-envelope"></i>
