@@ -1,209 +1,209 @@
 .register-main-container {
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vmin;
-    min-width: 100%;
-    background-color: #08b005;
-    /* background-image: url(../assets/loginBackground.jpg); */
-    background-size: 100%;
-    background-position: center;
-    /* background-size: contain;
-    padding:0px;
-    overflow-x: hidden; */
-  }
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vmin;
+  min-width: 100%;
+  background-color: #08b005;
+  /* background-image: url(../assets/loginBackground.jpg); */
+  background-size: 100%;
+  background-position: center;
+  /* background-size: contain;
+  padding:0px;
+  overflow-x: hidden; */
+}
+
+.register-container {
+  min-width: 62%;
+  padding-top: 3.819vw;
+  padding-bottom: 2.083vw;
+  padding-left: 5.556vw;
+  padding-right: 5.556vw;
+  background-color: white;
+  /* text-align: center; */
+  min-height: 100vh;
+  position: absolute;
+  right: 0;
+  border-radius: 4.167vw 0 0 4.167vw;
+}
+
+.register-container-2 {
+  width: 20vw;
+  background-color: #08b005;;
+  height: 35.556vw;
+}
+
+.register-container-2 p {
+color: #F1E3CB;
+font-family: Poppins;
+font-size: 1.389vw;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.register-gambar {
+position: absolute;
+top: 10vw;
+left: -29.222vw;
+width: 41.667vw;
+}
+
+.register-slogan {
+position: absolute;
+top: 4vw;
+left: 4vw;
+width: 15vw;
+}
+
+.register-slogan p {
+color: #F1E3CB;
+font-family: Poppins;
+font-size: 2.222vw;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.register-logo-diego {
+  margin-top: 4.5vw;
+  margin-bottom: 1.5vw;
+  margin-left: 20vw;
+  width: 12.500vw;
+  height: 6.250vw;
+}
+
+h2 {
+  /* margin-bottom: 20px; */
+}
+
+.register-container 
+input[type="text"],
+input[type="email"] {
+  margin-left: 13vw;
+  margin-bottom: 1.2vw;
+  width: 14vw;
+  padding: 0.694vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 30px;
+  border-radius: 10px;
+  border: 0.069vw solid #08b005;
+  background: #FFF;
+  width: 27.778vw;
+  height: 3.472vw;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+
+.registerPassword {
+  margin-left: 13vw;
+  margin-bottom: 1.2vw;
+  width: 14vw;
+  padding: 0.694vw;
+  border: 0.069vw solid #ccc;
+  border-radius: 0.347vw;
+  outline: none;
+  padding-left: 2.083vw;
+  border-radius: 0.694vw;
+  border: 0.069vw solid #08b005;
+  background: #FFF;
+  width: 27.778vw;
+  height: 3.472vw;
+}
+
+/* input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 30px;
+  margin-bottom: 5px;
+} */
+
+.register-container .input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.register-container .input-group i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 13.7vw;
+  color: #999;
+}
+
+.register-group {
+  margin-left: 14.5vw;
+}
+
+.registerButton {
   
-  .register-container {
-    min-width: 62%;
-    padding-top: 3.819vw;
-    padding-bottom: 2.083vw;
-    padding-left: 5.556vw;
-    padding-right: 5.556vw;
-    background-color: white;
-    /* text-align: center; */
-    min-height: 100vh;
-    position: absolute;
-    right: 0;
-    border-radius: 4.167vw 0 0 4.167vw;
-  }
-
-  .register-container-2 {
-    width: 20vw;
-    background-color: #08b005;;
-    height: 35.556vw;
-  }
-
- .register-container-2 p {
+  /* margin-left: 5vw; */
+  width: 25vw;
+  padding: 0.694vw;
+  background-color: #08b005;
+  /* color: white; */
+  border-radius: 0.694vw;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 0.347vw;
   color: #F1E3CB;
+  text-align: center;
   font-family: Poppins;
   font-size: 1.389vw;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   line-height: normal;
- }
+}
 
- .register-gambar {
-  position: absolute;
-  top: 10vw;
-  left: -29.222vw;
-  width: 41.667vw;
- }
+.registerButton:hover {
+  background-color: #08b005;
+}
 
- .register-slogan {
-  position: absolute;
-  top: 4vw;
-  left: 4vw;
-  width: 15vw;
- }
+.icon {
+  margin-top: -0.6vw;
+  margin-left: 13vw;
+}
 
- .register-slogan p {
-  color: #F1E3CB;
-  font-family: Poppins;
-  font-size: 2.222vw;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
- }
-  
-  .register-logo-diego {
-    margin-top: 4.5vw;
-    margin-bottom: 1.5vw;
-    margin-left: 20vw;
-    width: 12.500vw;
-    height: 6.250vw;
-  }
-  
-  h2 {
-    /* margin-bottom: 20px; */
-  }
-  
-  .register-container 
-  input[type="text"],
-  input[type="email"] {
-    margin-left: 13vw;
-    margin-bottom: 1.2vw;
-    width: 14vw;
-    padding: 0.694vw;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    padding-left: 30px;
-    border-radius: 10px;
-    border: 0.069vw solid #08b005;
-    background: #FFF;
-    width: 27.778vw;
-    height: 3.472vw;
-    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
-  }
+a {
+  text-decoration: none;
+  color: #ff5812;
+}
 
-  .registerPassword {
-    margin-left: 13vw;
-    margin-bottom: 1.2vw;
-    width: 14vw;
-    padding: 0.694vw;
-    border: 0.069vw solid #ccc;
-    border-radius: 0.347vw;
-    outline: none;
-    padding-left: 2.083vw;
-    border-radius: 0.694vw;
-    border: 0.069vw solid #08b005;
-    background: #FFF;
-    width: 27.778vw;
-    height: 3.472vw;
-  }
-  
-  /* input[type="email"] {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    padding-left: 30px;
-    margin-bottom: 5px;
-  } */
-  
-  .register-container .input-group {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-  
-  .register-container .input-group i {
+.register-tologin {
+  margin-left: 6vw;
+}
+
+.register-tologin a:hover {
+  color: #08b005;
+}
+
+@media only screen and (max-height: 650px) {
+  .register-gambar {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 13.7vw;
-    color: #999;
-  }
+    top: 11vw;
+    left: -20vw;
+    width: 31.250vw;
+   }
 
-  .register-group {
-    margin-left: 14.5vw;
+   .register-logo-diego {
+    margin-top: -0.5vw;
   }
-  
-  .registerButton {
-    
-    /* margin-left: 5vw; */
-    width: 25vw;
-    padding: 0.694vw;
-    background-color: #08b005;
-    /* color: white; */
-    border-radius: 0.694vw;
-    cursor: pointer;
-    outline: none;
-    margin-bottom: 0.347vw;
-    color: #F1E3CB;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 1.389vw;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  
-  .registerButton:hover {
-    background-color: #08b005;
-  }
-  
-  .icon {
-    margin-top: -0.6vw;
-    margin-left: 13vw;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #ff5812;
-  }
+}
 
-  .register-tologin {
-    margin-left: 6vw;
+/* @media only screen and (max-height: 615px) {
+  .tagline {
+    margin-top: 8%;
   }
-
-  .register-tologin a:hover {
-    color: #08b005;
+  .tagline h1 {
+      font-size: 45px;
   }
-
-  @media only screen and (max-height: 650px) {
-    .register-gambar {
-      position: absolute;
-      top: 11vw;
-      left: -20vw;
-      width: 31.250vw;
-     }
-
-     .register-logo-diego {
-      margin-top: -0.5vw;
-    }
+  .tagline p {
+      font-size: 35px;
   }
-
-  /* @media only screen and (max-height: 615px) {
-    .tagline {
-      margin-top: 8%;
-    }
-    .tagline h1 {
-        font-size: 45px;
-    }
-    .tagline p {
-        font-size: 35px;
-    }
-  } */
+} */
